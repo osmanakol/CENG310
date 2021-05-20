@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.group6.stage5_computer_prototype.ui.cart.CartFragment">
+
+    <ScrollView
+        android:id="@+id/scrollView4"
+        android:layout_width="384dp"
+        android:layout_height="299dp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:drawableRight="@drawable/btn_edit"
+                android:paddingTop="10dp"
+                android:paddingRight="10dp"
+                android:text="Address"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:layout_editor_absoluteY="25dp" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="163dp"
+                android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sollicitudin sagittis nulla, ut pharetra massa tristique eu. Vivamus a leo magna. Fusce non ex ultrices, commodo lacus eu, eleifend massa."
+                android:textSize="16sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:layout_editor_absoluteY="25dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:drawableRight="@drawable/btn_edit"
+                android:paddingTop="10dp"
+                android:paddingRight="10dp"
+                android:text="Payment Information"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:layout_editor_absoluteY="25dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="118dp"
+                android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sollicitudin sagittis nulla, ut pharetra massa tristique eu. Vivamus a leo magna. Fusce non ex ultrices, commodo lacus eu, eleifend massa."
+                android:textSize="16sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:layout_editor_absoluteY="25dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="260dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="Shopping Cart"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="0dp"
+        android:layout_height="269dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="30dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/scrollView4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9"
+        app:layout_constraintVertical_bias="0.0">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            app:cardBackgroundColor="@android:color/white"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="10dp"
+            app:cardMaxElevation="12dp"
+            app:cardPreventCornerOverlap="true"
+            app:cardUseCompatPadding="true"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/home_search">
+
+            <ImageView
+                android:id="@+id/cart_image"
+                android:layout_width="200dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/imageview_radius"
+                android:foreground="@drawable/imageview_radius"
+                android:scaleType="fitXY"
+                tools:srcCompat="@tools:sample/backgrounds/scenic" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:fontFamily="sans-serif-black"
+                android:gravity="right|top"
+                android:paddingRight="35dp"
+                android:text="50.00 $"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="141dp"
+                android:layout_height="43dp"
+                android:layout_marginLeft="200dp"
+                android:layout_marginTop="60dp"
+                android:drawableLeft="@drawable/btn_edit"
+                android:drawableRight="@drawable/btn_delete"
+                android:fontFamily="sans-serif-black"
+                android:paddingRight="10dp"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_marginTop="110dp"
+                android:paddingLeft="15dp"
+                android:text="Product Name"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:layout_marginTop="130dp"
+                android:backgroundTint="@color/white"
+                android:ems="10"
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                android:paddingLeft="15dp"
+                android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sollicitudin sagittis nulla, ut pharetra massa tristique eu. Vivamus a leo magna. Fusce non ex ultrices, commodo lacus eu, eleifend massa."
+                android:textSize="14dp" />
+
+
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout5"
+        android:layout_width="415dp"
+        android:layout_height="56dp"
+        android:layout_marginBottom="4dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/scrollView3"
+        app:layout_constraintVertical_bias="1.0">
+
+        <TextView
+            android:id="@+id/txt_productlist_one2"
+            android:layout_width="21dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:fontFamily="sans-serif-black"
+            android:gravity="center_vertical"
+            android:paddingLeft="20dp"
+            android:paddingRight="10dp"
+            android:text="50.00 $"
+            android:textSize="36sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="20dp"
+            android:layout_weight="1"
+            android:text="Pay" />
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

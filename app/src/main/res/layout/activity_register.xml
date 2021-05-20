@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/bg_white">
+
+    <ImageView
+        android:id="@+id/imageView_register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/bg" />
+
+
+    <TextView
+        android:id="@+id/register_title"
+        android:layout_width="232dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="60dp"
+        android:gravity="center"
+        android:text="Register"
+        android:textAlignment="gravity"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView_register" />
+
+    <TextView
+        android:id="@+id/register_title_brand_name"
+        android:layout_width="232dp"
+        android:layout_height="56dp"
+        android:layout_marginBottom="56dp"
+        android:gravity="center"
+        android:text="By Your Hand"
+        android:textAlignment="gravity"
+        android:textColor="@color/white"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView_register"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="377dp"
+        android:layout_height="424dp"
+        android:layout_marginTop="30dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/register_title">
+
+        <TextView
+            android:id="@+id/txt_register_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="14dp" />
+
+        <EditText
+            android:id="@+id/register_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@android:color/darker_gray"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text=""
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/txt_register_surname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Surame"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="14dp" />
+
+        <EditText
+            android:id="@+id/register_surname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@android:color/darker_gray"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text=""
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/txt_register_username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Username"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="14dp" />
+
+        <EditText
+            android:id="@+id/register_username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@android:color/darker_gray"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text=""
+            android:textSize="12sp" />
+
+
+        <TextView
+            android:id="@+id/txt_register_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Password"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="14dp" />
+
+        <EditText
+            android:id="@+id/register_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@android:color/darker_gray"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:text=""
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/txt_register_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Email"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="14dp" />
+
+        <EditText
+            android:id="@+id/register_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@android:color/darker_gray"
+            android:ems="10"
+            android:inputType="textEmailAddress"
+            android:text=""
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/txt_register_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Address"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="14dp" />
+
+        <EditText
+            android:id="@+id/register_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@android:color/darker_gray"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text=""
+            android:textSize="12sp" />
+
+        <ImageView
+            android:id="@+id/btn_signin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="register"
+            app:srcCompat="@drawable/btn_signin" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="213dp"
+        android:layout_height="18dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Already have any account?"
+            android:textColor="@android:color/darker_gray" />
+
+        <TextView
+            android:id="@+id/btn_register_signin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" Sign In"
+            android:textColor="@android:color/darker_gray" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
