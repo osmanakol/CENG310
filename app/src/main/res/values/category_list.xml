@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="categories">
+        <item>Baby Products (Bedding, Décor, Toys)</item>
+        <item>Electronics Accessories (Mouse Pads, Sleeves, Cases)</item>
+        <item>Handmade Hair Accessories (Headbands, Pins, Wigs)</item>
+        <item>Handbags &amp; Accessories (Hats, Gloves, Handbags)</item>
+        <item>Home &amp; Kitchen (Artwork, Candles, Aprons, Stationery)</item>
+        <item>Jewelry (Earrings, Necklaces, Bracelets)
+Lighting (Wall Fixtures, Lamps, Outdoor Lighting)</item>
+        <item>Luggage &amp; Travel Accessories (Messenger Bags, Money Belts, Tie Cases)</item>
+        <item>Outdoor &amp; Patio (Garden Signs, Bird Baths, Flower Pots)</item>
+        <item>Sports &amp; Recreation (Kites, Camping Gear, Swings)</item>
+        <item>Toys &amp; Games (Rattles, Puzzles, Dolls)</item>
+    </string-array>
+</resources>

@@ -156,11 +156,13 @@
             android:text="Don't have any account?" />
 
         <TextView
-            android:id="@+id/textView11"
+            android:id="@+id/txtSingUp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Sign Up" />
+            android:onClick="login"
+            android:text="Sign Up"
+            android:textColor="@color/gradient_theme" />
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

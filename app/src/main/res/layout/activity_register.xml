@@ -196,9 +196,11 @@
         <TextView
             android:id="@+id/btn_register_signin"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text=" Sign In"
-            android:textColor="@android:color/darker_gray" />
+            android:layout_height="match_parent"
+            android:onClick="register"
+            android:text=" Log In"
+            android:textColor="@color/gradient_theme"
+            android:textColorLink="@color/gradient_theme" />
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

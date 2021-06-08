@@ -12,13 +12,19 @@ import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
 import android.widget.ImageView;
+import android.widget.Spinner;
 
 import com.group6.stage5_computer_prototype.R;
+
+import java.lang.reflect.Array;
 
 public class ProfileFragment extends Fragment {
 
     private ProfileViewModel mViewModel;
+    private Spinner spinner;
     private ImageView imageView_one;
     private ImageView imageView_two;
     private ImageView imageView_three;
@@ -67,6 +73,8 @@ public class ProfileFragment extends Fragment {
         imageView_eight = root.findViewById(R.id.cardview_one_image_eight);
         imageView_eight.setImageBitmap(BitmapFactory.decodeResource(getResources(), R.drawable.resim4));
         imageView_eight.setClipToOutline(true);
+
+        spinner = (Spinner) root.findViewById(R.id.spinner);
         return root;
     }
 

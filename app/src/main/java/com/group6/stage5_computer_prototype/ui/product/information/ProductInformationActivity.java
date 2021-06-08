@@ -3,11 +3,13 @@ package com.group6.stage5_computer_prototype.ui.product.information;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.os.Bundle;
+import android.widget.Spinner;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.viewpager2.widget.ViewPager2;
 
+import com.google.android.material.appbar.MaterialToolbar;
 import com.group6.stage5_computer_prototype.R;
 import com.group6.stage5_computer_prototype.adapters.ViewPagerAdapter;
 
@@ -17,12 +19,18 @@ import java.util.List;
 public class ProductInformationActivity extends AppCompatActivity {
 
     private ViewPager2 viewPager2;
+    private MaterialToolbar materialToolbar;
+
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_productinformation);
         viewPager2 = findViewById(R.id.home_viewpager);
+        materialToolbar = findViewById(R.id.topAppBar);
+        materialToolbar.setNavigationOnClickListener(v -> {
+            onBackPressed();
+        });
         List<Bitmap> bitmaps = new ArrayList<>();
         bitmaps.add(BitmapFactory.decodeResource(getResources(), getIntent().getIntExtra("current", R.drawable.resim13)));
         bitmaps.add(BitmapFactory.decodeResource(getResources(), R.drawable.resim11));

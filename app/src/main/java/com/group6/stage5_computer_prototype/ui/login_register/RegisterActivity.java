@@ -18,10 +18,16 @@ public class RegisterActivity extends AppCompatActivity {
     }
 
     public void register(View view){
-        SharedPreferences sharedPreferences = getSharedPreferences("check" ,MODE_PRIVATE);
-        sharedPreferences.edit().putInt("isRegister",1).apply();
-        Intent intent = new Intent(RegisterActivity.this, LoginActivity.class);
-        intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
-        startActivity(intent);
+        if (view.getId() == R.id.btn_register_signin){
+            Intent intent = new Intent(RegisterActivity.this, LoginActivity.class);
+            intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+            startActivity(intent);
+        } else{
+
+            Intent intent = new Intent(RegisterActivity.this, LoginActivity.class);
+            intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+            startActivity(intent);
+        }
+
     }
 }

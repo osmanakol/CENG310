@@ -88,8 +88,11 @@ public class ProductListActivity extends AppCompatActivity {
             case R.id.product_cardview_eight:
                 intent.putExtra("current", R.drawable.resim12);
                 break;
+            case R.id.btnBack:
+                onBackPressed();
+                break;
         }
-
-        startActivity(intent);
+        if (view.getId() != R.id.btnBack)
+            startActivity(intent);
     }
 }

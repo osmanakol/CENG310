@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.abouts.aboutus">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="20dp"
+                android:text="Contact ByYourHands"
+                android:gravity="clip_vertical|center_horizontal|center_vertical"
+                android:textColor="@color/gradient_theme"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="Get in touch with us today for clarifications on matching a product to your needs, demonstrations and training."
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:paddingRight="10dp"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:text="Turkey (ByH, TR distributor)"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:paddingRight="10dp"
+                android:textSize="14sp"
+                android:text="
+    • Call +90-312-1213\n
+    • Email sales@byh.com\n
+    • Ayvalı Mh. Takdir Cad.150 Sk. No:5 Etlik-Keçiören / ANKARA"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:paddingRight="10dp"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:text="Azerbaycan"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:paddingRight="10dp"
+                android:textSize="14sp"
+                android:text="
+    • Phone +994 (9) 835-1550\n
+    • Email sales-az@byh.com\n
+    • Inglab Str., 57, Absheron Baku Azerbaijan\n
+    • Novruz  İxtiyarzadə (Global Sales Manager)"/>
+
+            <TextView
+                android:id="@+id/faq"
+                android:layout_width="match_parent"
+                android:layout_height="81dp"
+                android:gravity="clip_vertical|center_horizontal|center_vertical"
+                android:text="F.A.Q"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="What payment methods do you accept?"
+                android:textColor="@color/gradient_theme"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:paddingRight="10dp"
+                android:text="We accept Visa and MasterCard on our website.  Our sales staff can also process other payment types manually, including checks and internet banking. To pay using one of these methods, please contact us to place your order." />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="Do you offer volume discounts?"
+                android:textColor="@color/gradient_theme"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:paddingRight="10dp"
+                android:text="Sorry, we do not offer volume discounts direct to the public. For quantity pricing, please contact your local distributor." />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="My shipping address is in Azarbaycan, but I qualify for a tax exemption. Can I buy online?"
+                android:textColor="@color/gradient_theme"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:paddingRight="10dp"
+                android:text="Unfortunately we can't process tax exempt orders through our website. But we're happy to process tax exempt orders offline - please contact us to place your order and send through your Resale Certificate." />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="Can I obtain a credit account and use a purchase order to shop?"
+                android:textColor="@color/gradient_theme"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:paddingRight="10dp"
+                android:text="We are happy to supply goods on credit. To apply for a credit account you will need to fill out the following form and return it to us by email (byyourhands@byh.com) or post it to:  Ayvalı Mh. Takdir Cad.150 Sk. No:5 Etlik-Keçiören / ANKARA" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="How can I track my shipment?"
+                android:textColor="@color/gradient_theme"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:paddingRight="10dp"
+                android:text="Our staff will be happy to provide you with a tracking number to track your parcel. Please contact us for your tracking number, and then track it on the UPS website."/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="When will my 'In Stock' order be dispatched?"
+                android:textColor="@color/gradient_theme"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:paddingRight="10dp"
+                android:text="We stock a comprehensive range of instruments at our Dallas office. If your item is In Stock, we can usually ship on the same day for orders placed before 1pm, and the next day for orders placed after 1pm. Our aim is to get your order on board with the courier within two business days of purchase.
+Due to the flexibility of our factory processes and the stocking of partially manufactured components, we're able to offer these turnaround times for assembled products, too.
+If you're trying to estimate when a package will be delivered, please note the following:
+Credit card authorization and verification must be received prior to processing
+We are closed on weekends and public holidays
+Our shipping provider does not deliver on weekends and public holidays"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="What shipping provider do you use?"
+                android:textColor="@color/gradient_theme"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:paddingRight="10dp"
+                android:text="We use UPS."/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="Can I change my delivery address?"
+                android:textColor="@color/gradient_theme"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:paddingRight="10dp"
+                android:text="Your delivery information is sent to UPS immediately after your payment is processed, so it's difficult to change this after your order has been placed. Please enter your address details carefully!
+If you do need to change your shipping address, please contact us as soon as possible."/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="What is your returns policy?"
+                android:textColor="@color/gradient_theme"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:paddingRight="10dp"
+                android:text="Define Instruments will accept product returns for credit or exchange up to 30 DAYS after the dispatch date, provided that the returned product(s) are unused, and in original condition - complete with original documents and packaging.
+All returns require a Return Goods Authorization number, regardless of the reason for the return. This can be obtained by contacting sales@byh.com"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="Which products can be returned?"
+                android:textColor="@color/gradient_theme"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:paddingRight="10dp"
+                android:text="Any item(s) purchased on our website are eligible for return, provided they are in new condition as detailed in our Returns Policy. We may not be able to accept returns of:
+Special orders
+Non-stock products
+Products that have been built or configured according to your specifications
+Distributor stock
+All returns require a Return Goods Authorization number, regardless of the reason for the return. This can be obtained by contacting sales@byh.com."/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="Can I get a refund for my shipping costs?"
+                android:textColor="@color/gradient_theme"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="10dp"
+                android:text="We will refund your shipping costs if the product was received due to an error on our part. For change-of-mind returns, and any other return reason that is not due to an error on our part, we do not refund shipping charges."
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

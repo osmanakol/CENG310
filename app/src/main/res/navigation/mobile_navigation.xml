@@ -34,4 +34,10 @@
         android:name="com.group6.stage5_computer_prototype.ui.profile.ProfileFragment"
         android:label="@string/title_profile"
         tools:layout="@layout/fragment_profile"/>
+
+    <fragment
+        android:id="@+id/navigation_aboutus"
+        android:name="com.group6.stage5_computer_prototype.ui.abouts.aboutus"
+        android:label="@string/title_aboutus"
+        tools:layout="@layout/aboutus_fragment"/>
 </navigation>

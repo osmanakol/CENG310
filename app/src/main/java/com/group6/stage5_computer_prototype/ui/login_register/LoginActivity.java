@@ -1,6 +1,7 @@
 package com.group6.stage5_computer_prototype.ui.login_register;
 
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.View;
 
@@ -19,8 +20,17 @@ public class LoginActivity extends AppCompatActivity {
     }
 
     public void login(View view){
-        Intent intent = new Intent(LoginActivity.this, MainActivity.class);
-        intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
-        startActivity(intent);
+        if (view.getId() == R.id.txtSingUp){
+            Intent intent = new Intent(LoginActivity.this, RegisterActivity.class);
+            intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+            startActivity(intent);
+        } else{
+            SharedPreferences sharedPreferences = getSharedPreferences("check" ,MODE_PRIVATE);
+            sharedPreferences.edit().putInt("isRegister",1).apply();
+            Intent intent = new Intent(LoginActivity.this, MainActivity.class);
+            intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+            startActivity(intent);
+        }
+
     }
 }

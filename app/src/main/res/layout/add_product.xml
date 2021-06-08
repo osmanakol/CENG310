@@ -14,36 +14,35 @@
         tools:layout_editor_absoluteY="127dp">
 
         <EditText
-            android:id="@+id/editTextTextPersonName3"
+            android:id="@+id/txtProductName"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
             android:hint="Product Name"
             android:inputType="textPersonName" />
 
-        <EditText
-            android:id="@+id/editTextTextPersonName4"
+        <Spinner
+            android:id="@+id/spinner"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:hint="Category"
-            android:inputType="textPersonName" />
+            android:layout_height="38dp"
+            android:dropDownSelector="@drawable/bg_white"
+            android:spinnerMode="dialog" />
 
         <EditText
-            android:id="@+id/editTextTextPersonName5"
+            android:id="@+id/txtStocks"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
             android:hint="Stock"
-            android:inputType="textPersonName" />
+            android:inputType="number" />
 
         <EditText
-            android:id="@+id/editTextTextPersonName6"
+            android:id="@+id/txtUnitPrice"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
             android:hint="Unit Price"
-            android:inputType="textPersonName" />
+            android:inputType="number" />
 
         <Button
             android:id="@+id/button"
